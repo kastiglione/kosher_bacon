@@ -194,7 +194,7 @@ module MiniTest
       def refute_match(matcher, obj, msg=nil)
         matcher = /#{Regexp.escape(matcher)}/ if String === matcher
         if msg.nil?
-          obj.should !~ matcher
+          obj.should.not =~ matcher
         else
           refute matcher =~ obj, msg
         end

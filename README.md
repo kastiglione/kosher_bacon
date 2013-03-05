@@ -1,9 +1,10 @@
-# kosher_bacon
+# Kosher Bacon
 
-kosher_bacon is an adaptor that converts test written for
-MiniTest::Unit (and Test::Unit) into specs that can be run by
-[MacBacon](https://github.com/alloy/MacBacon) on
-[RubyMotion](http://www.rubymotion.com/)
+Kosher Bacon allows tests written for MiniTest::Unit and Test::Unit to
+run on [RubyMotion](http://www.rubymotion.com/), in both the simulator
+and on device. Behind the scenes, test cases are converted to specs
+that will be run by [MacBacon](https://github.com/alloy/MacBacon),
+RubyMotion's built-in test framework.
 
 ## Status
 

@@ -7,10 +7,13 @@ Gem::Specification.new do |spec|
   spec.name          = "kosher_bacon"
   spec.version       = KosherBacon::VERSION
   spec.authors       = ["Dave Lee"]
-  spec.email         = ["davelee.com@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.email         = ["dave@kastiglione.com"]
+  spec.summary       = '{MiniTest,Test}::Unit adaptor for RubyMotion'
+  spec.description   = <<-DESC
+kosher_bacon is an adaptor that converts test written for MiniTest::Unit into
+specs that can be run by MacBacon.
+  DESC
+  spec.homepage      = "https://github.com/kastiglione/#{spec.name}"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

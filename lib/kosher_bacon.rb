@@ -7,6 +7,7 @@ if defined? Motion::Project::App
     # An app's spec files are immediately after RubyMotion's.
     before_app_specs = config.spec_files.index { |file| !file.start_with?(config.motiondir) }
     config.spec_files.insert(before_app_specs, *helpers)
+    ENV['output'] = 'test_unit'
   end
 else
   raise 'This file must be required within a RubyMotion project Rakefile.'

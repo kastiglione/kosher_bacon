@@ -29,13 +29,22 @@ And then update your Rakefile like so:
 
 ## Usage
 
-Write your tests in a test/unit style. For learning how to do this,
-feel free to start with the links below, if you trust this README. If
-your eyes slanted as you read the word "trust", enjoy your upcoming
-search engine time.
+Write your tests in a test/unit style. For example:
 
-* [WikiBooks: Ruby Programming/Unit testing](http://en.wikibooks.org/wiki/Ruby_Programming/Unit_testing)
-* [A Guide to Testing Rails Applications, Unit Testing your Models](http://guides.rubyonrails.org/testing.html)
+```ruby
+class TestBacon < MiniTest::Unit::TestCase
+
+  def setup
+    @bacon = Bacon.new
+  end
+
+  def test_is_kosher_after_processing
+    @bacon.process
+    assert_predicate @bacon, :kosher?
+  end
+
+end
+```
 
 ## Compatibility
 

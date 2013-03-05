@@ -12,7 +12,7 @@ module MiniTest
       #
 
       def self.inherited(subclass)
-        name = subclass.to_s.sub(/^Test/, '').gsub(/([a-z])([A-Z])/, '\1 \2')
+        name = subclass.to_s.sub(/^Test/, '')
         context = describe name do
           before do
             @test_case = subclass.new

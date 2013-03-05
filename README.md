@@ -37,6 +37,29 @@ search engine time.
 * [WikiBooks: Ruby Programming/Unit testing](http://en.wikibooks.org/wiki/Ruby_Programming/Unit_testing)
 * [A Guide to Testing Rails Applications, Unit Testing your Models](http://guides.rubyonrails.org/testing.html)
 
+## Compatibility
+
+Assertions implemented:
+
+* `assert`, `refute`
+* `assert_empty`, `refute_empty`
+* `assert_equal`, `assert_not_equal`, `refute_equal`
+* `assert_in_delta`, `refute_in_delta`
+* `assert_in_epsilon`, `refute_in_epsilon`
+* `assert_includes`, `refute_includes`
+* `assert_instance_of`, `refute_instance_of`
+* `assert_kind_of`, `refute_kind_of`
+* `assert_match`, `assert_no_match`, `refute_match`
+* `assert_nil`, `assert_not_nil`, `refute_nil`
+* `assert_operator`, `refute_operator`
+* `assert_predicate`, `refute_predicate`
+* `assert_raises`, `assert_raise`, `assert_nothing_raised`, `refute_raises`
+* `assert_respond_to`, `refute_respond_to`
+* `assert_same`, `assert_not_same`, `refute_same`
+* `assert_send`, `assert_not_send`, `refute_send`
+* `assert_throws`, `assert_nothing_thrown`, `refute_throws`
+* `assert_block`
+
 ## Contributing
 
 1. Fork it

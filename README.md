@@ -5,6 +5,10 @@ MiniTest::Unit (and Test::Unit) into specs that can be run by
 [MacBacon](https://github.com/alloy/MacBacon) on
 [RubyMotion](http://www.rubymotion.com/)
 
+## Status
+
+Version: 0.0.1 "Lucky"
+
 ## Installation
 
 For apps using Bundler:

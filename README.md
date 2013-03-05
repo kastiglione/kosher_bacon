@@ -34,8 +34,8 @@ feel free to start with the links below, if you trust this README. If
 your eyes slanted as you read the word "trust", enjoy your upcoming
 search engine time.
 
-[WikiBooks: Ruby Programming/Unit testing](http://en.wikibooks.org/wiki/Ruby_Programming/Unit_testing)
-[A Guide to Testing Rails Applications, Unit Testing your Models](http://guides.rubyonrails.org/testing.html)
+* [WikiBooks: Ruby Programming/Unit testing](http://en.wikibooks.org/wiki/Ruby_Programming/Unit_testing)
+* [A Guide to Testing Rails Applications, Unit Testing your Models](http://guides.rubyonrails.org/testing.html)
 
 ## Contributing
 

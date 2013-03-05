@@ -8,7 +8,7 @@ RubyMotion's built-in test framework.
 
 ## Status
 
-Version: 0.0.1 "Lucky"
+Version 0.0.1
 
 ## Installation
 

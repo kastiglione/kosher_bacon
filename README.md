@@ -8,7 +8,7 @@ RubyMotion's built-in test framework.
 
 ## Status
 
-Version 0.0.1
+Version 0.0.2
 
 ## Installation
 
@@ -18,11 +18,11 @@ For apps using Bundler:
 
 And then execute:
 
-    $ bundle
+    bundle
 
 For apps without Bundler, install the gem by hand:
 
-    $ gem install kosher_bacon
+    gem install kosher_bacon
 
 And then update your Rakefile like so:
 
@@ -33,15 +33,15 @@ And then update your Rakefile like so:
 Write your tests in a test/unit style. For example:
 
 ```ruby
-class TestBacon < MiniTest::Unit::TestCase
+class TestBaconStrip < MiniTest::Unit::TestCase
 
   def setup
-    @bacon = Bacon.new
+    @bacon_strip = BaconStrip.new
   end
 
-  def test_is_kosher_after_processing
-    @bacon.process
-    assert_predicate @bacon, :kosher?
+  def test_bacon_strip_is_tasty_after_cooking
+    @bacon_strip.cook!
+    assert_predicate @bacon_strip, :tasty?
   end
 
 end

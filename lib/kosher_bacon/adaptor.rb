@@ -266,7 +266,7 @@ module MiniTest
       end
       alias_method :assert_raise, :assert_raises
 
-      def refute_raises(msg=nil)
+      def refute_raises(*exceptions, &block)
         msg = exceptions.last if String === exceptions.last
         if msg.nil?
           block.should.not.raise?(*exceptions)
